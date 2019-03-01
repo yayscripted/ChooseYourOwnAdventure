@@ -1,7 +1,7 @@
 /* global $ */
 
 $(document).ready(function() {
-    var firstLevel = game.levels.start;
+    var firstLevel = game.levels.menu;
     renderLevel(firstLevel);
 
     // When user clicks a choice, go to the next level
